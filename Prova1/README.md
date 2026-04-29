@@ -1,18 +1,36 @@
-## Getting Started
+# 🛒 Sistema de Simulação de Vendas de Eletrodomésticos
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto em **Java** simula o processo de vendas de uma loja de eletrodomésticos de forma automatizada. Ele utiliza lógica de sorteio para processar 10 vendas aleatórias e gera relatórios em tempo real sobre faturamento, quantidade de itens e porcentagem de saída de cada produto.
 
-## Folder Structure
+## 🚀 Funcionalidades
 
-The workspace contains two folders by default, where:
+*   **Simulação Automatizada**: Utiliza a classe `Random` para gerar vendas sem necessidade de entrada manual.
+*   **Gestão de Estoque e Valor**: Calcula o faturamento total e a quantidade individual de cada item vendido.
+*   **Análise de Dados**: Gera porcentagens precisas (formatadas com duas casas decimais) sobre a relevância de cada produto no total de vendas.
+*   **Modularização**: O projeto é dividido em classes para separar a lógica de processamento da exibição de informações.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 📦 Estrutura do Projeto
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O código está organizado em dois arquivos principais:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1.  **`Eletrodomesticos.java`**: Contém o método `main`, o loop de repetição e o controle do faturamento.
+2.  **`informacoes.java`**: Localizada no pacote `Pacote`, é responsável por toda a interface de saída (menus e relatórios).
 
-## Dependency Management
+## 🛠️ Produtos Simulados
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+| ID | Produto | Valor Unitário |
+|:---:|:---:|:---:|
+| 1 | Celular | R$ 100,00 |
+| 2 | Liquidificador | R$ 200,00 |
+| 3 | Rádio Relógio | R$ 300,00 |
+| 4 | Forno Elétrico | R$ 400,00 |
+
+## 💻 Exemplo de Execução
+
+Ao rodar o programa, o console exibirá:
+- O menu inicial de preços.
+- O resumo a cada venda processada.
+- A distribuição percentual final dos produtos.
+
+---
+Desenvolvido como parte dos estudos de **Análise e Desenvolvimento de Sistemas**.
