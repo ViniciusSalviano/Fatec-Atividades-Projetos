@@ -1,18 +1,27 @@
-## Getting Started
+# 🔐 Cifra de César em Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## 📝 Descrição do Projeto
+Este projeto foi desenvolvido como parte dos meus estudos no curso de **Análise e Desenvolvimento de Sistemas (ADS)** na **Fatec Franca**. Ele consiste em uma implementação da **Cifra de César**, um dos métodos mais clássicos e simples de criptografia por substituição.
 
-## Folder Structure
+O algoritmo funciona deslocando cada letra do texto original um número fixo de posições no alfabeto.
 
-The workspace contains two folders by default, where:
+## 🚀 Tecnologias Utilizadas
+* **Linguagem:** Java
+* **Conceitos aplicados:** Lógica de programação, manipulação de arrays e Strings
+* **Ambiente:** VS Code no Windows 11
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🛠️ Como Funciona
+A criptografia segue a fórmula matemática:
+$E_n(x) = (x + n) \mod 26$
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Onde:
+*   **x**: É a posição da letra no alfabeto (0-25).
+*   **n**: É a "chave" ou o número de deslocamentos desejado.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 📁 Estrutura de Pastas
+* `src/`: Contém o código-fonte `.java`.
+* `bin/`: Contém os arquivos compilados `.class` gerados pela IDE.
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## 👨‍💻 Desenvolvedor
+**Vinicius de Souza Salviano**
+Estudante de ADS - 2º Semestre
