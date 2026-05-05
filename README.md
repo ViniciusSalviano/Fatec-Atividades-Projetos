@@ -1,36 +1,37 @@
-# 🎓 Jornada Acadêmica: Algoritmos e Laboratório (Fatec)
+# 🎓 Fatec-Atividades-Projetos
 
-Este repositório funciona como meu **diário de bordo técnico** durante o curso de **Análise e Desenvolvimento de Sistemas na Fatec Franca**. Aqui estão concentrados exercícios de fixação, práticas de sala de aula e pequenos algoritmos que fundamentam minha base como desenvolvedor.
+Este repositório centraliza meus estudos, atividades e projetos desenvolvidos durante o curso de **Análise e Desenvolvimento de Sistemas na FATEC Franca**. 
 
-> [!IMPORTANT]
-> **Política de Organização:** Este espaço é destinado a códigos de aprendizado contínuo e exercícios acadêmicos. Projetos de maior escala, sistemas completos ou aplicações autorais detalhadas possuem **repositórios individuais** em meu perfil para permitir uma documentação mais profunda e específica.
+O foco principal é a evolução na linguagem **Java**, aplicando conceitos de lógica de programação, estruturas de dados e Programação Orientada a Objetos (POO).
 
-## 🎯 Foco Principal: Java
+## 🚀 Projetos no Repositório
 
-Atualmente, dedico meus estudos à stack **Java**. O objetivo é dominar desde a lógica estruturada até os pilares da Programação Orientada a Objetos (POO), aproveitando a robustez da linguagem para construir aplicações escaláveis e seguras.
+### 1. 🎮 Java Game Center
+Um console de jogos clássicos rodando via terminal, demonstrando o uso de classes, métodos e controle de fluxo:
+* **21 (Blackjack)**: Lógica com acumuladores e decisão automatizada da máquina.
+* **Jaquempô**: Implementação de Pedra, Papel e Tesoura com estruturas condicionais.
+* **Adivinhação**: Jogo de sorte utilizando a geração de números aleatórios.
+* **Par ou Ímpar**: Lógica matemática com operadores de módulo.
 
-## 📂 Estrutura e Organização
+### 2. 📊 Sistema de Simulação de Vendas
+Projeto que simula o processo de vendas de uma loja de eletrodomésticos. Ele utiliza lógica de sorteio para processar vendas aleatórias e gera relatórios sobre faturamento e performance de produtos.
 
-Para manter a compatibilidade com o padrão de projetos Java no VS Code e facilitar a navegação entre os códigos:
+### 3. 🔐 Cifra de César (Criptografia)
+Implementação de um sistema de criptografia e descriptografia utilizando a Cifra de César. Este projeto demonstra a manipulação de strings e lógica de deslocamento de caracteres no Java.
 
-*   **`src/`**: Códigos-fonte organizados por módulos ou temas acadêmicos (ex: Criptografia, Estruturas de Repetição).
-*   **`lib/`**: Dependências e bibliotecas necessárias para a execução dos scripts.
-*   **`bin/`**: Artefatos compilados (gerados automaticamente pelo ambiente Java).
+### 4. 📂 Exercícios de Lógica e Provas
+Pasta dedicada à resolução de exercícios de sala de aula e avaliações de cálculo e algoritmos, focando na base necessária para o desenvolvimento de software.
 
-## 🚀 O que você encontra aqui?
+## 🛠️ Tecnologias e Ferramentas
+* **Linguagem Principal:** Java (JDK 17+)
+* **Ambiente de Desenvolvimento:** VS Code
+* **Versionamento:** Git e GitHub
 
-Neste "guarda-chuva" de códigos, os principais destaques são:
-
-1.  **Criptografia (Cifra de César)**: Implementação de lógica de criptografia modular com aritmética de resto (`% 26`), organizada de forma profissional em pacotes (`PastaPacote`).
-2.  **Java Game Center**: Um console contendo lógica de jogos clássicos como 21, Jokenpô e Adivinhação, focados em interação via terminal.
-3.  **Simulador de Vendas**: Sistema para gestão de faturamento com lógica de relatórios dinâmicos.
-4.  **Exercícios de Lógica**: Práticas constantes de estruturas condicionais, laços de repetição e manipulação de arrays/vetores.
-
-## 🛠️ Stack Tecnológica
-
-*   **Linguagem:** Java (JDK 21+)
-*   **IDE:** Visual Studio Code
-*   **Controle de Versão:** Git & GitHub
+## 📂 Estrutura do Repositório
+Seguindo o padrão do VS Code para Java:
+* `/src`: Código-fonte (.java) organizado por pacotes.
+* `/bin`: Arquivos compilados (.class).
+* `/lib`: Dependências e bibliotecas do projeto.
 
 ---
-*"Documentar o processo de aprendizado é tão importante quanto escrever o código final."*
+**Vinicius de Souza Salviano** *Estudante de ADS na Fatec Franca - Em busca de aprendizado contínuo e evolução na área de tecnologia.*
