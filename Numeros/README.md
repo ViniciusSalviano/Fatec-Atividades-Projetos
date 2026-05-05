@@ -1,18 +1,28 @@
-## Getting Started
+# 📊 Processamento de Vetores e Análise de Dados
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto é uma aplicação Java desenvolvida para realizar a manipulação de arrays (vetores), geração de números e análise estatística simples, como a identificação de valores máximos e mínimos e a validação de dados.
 
-## Folder Structure
+## 🛠️ Tecnologias e Estrutura
 
-The workspace contains two folders by default, where:
+* **Linguagem:** Java.
+* **Organização:** O projeto utiliza uma estrutura modular dividida em pacotes, promovendo a separação de responsabilidades entre as classes.
+* **Componentes Principais:**
+    * `Vetor`: Responsável pela criação e gerenciamento do array de números (geração).
+    * `MaiorMenor`: Contém a lógica para identificar o maior e o menor valor dentro do conjunto de dados.
+    * `Verificar`: Realiza validações específicas nos números processados.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🕹️ Funcionalidades
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+O programa executa as seguintes etapas automaticamente ao ser iniciado:
+1.  **Geração:** Cria um vetor de números através da classe `Vetor`.
+2.  **Exibição:** Lista todos os números gerados no console, indicando sua posição.
+3.  **Verificação:** Executa uma rotina de conferência nos dados via classe `Verificar`.
+4.  **Análise:** Identifica e exibe no terminal qual é o **maior** e o **menor** número presente no vetor.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🚀 Como Executar o Projeto
 
-## Dependency Management
+Para rodar este projeto, você precisará ter o **JDK (Java Development Kit)** instalado em sua máquina.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/ViniciusSalviano/Fatec-Atividades-Projetos.git](https://github.com/ViniciusSalviano/Fatec-Atividades-Projetos.git)
