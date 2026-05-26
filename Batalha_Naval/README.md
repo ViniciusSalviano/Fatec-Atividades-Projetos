@@ -1,18 +1,37 @@
-## Getting Started
+# 🚢 Simulação de Batalha Naval
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto desenvolvido em **Java** que simula de forma automatizada uma partida de Batalha Naval entre dois jogadores. O jogo roda diretamente no console, alternando turnos e exibindo o estado dos tabuleiros em tempo real até que um dos jogadores vença.
 
-## Folder Structure
+## ⚙️ Funcionalidades
 
-The workspace contains two folders by default, where:
+* **Geração Automática**: Os tabuleiros de tamanho 5x5 são inicializados dinamicamente.
+* **Posicionamento Aleatório**: Cada jogador recebe 10 navios posicionados aleatoriamente pelo sistema.
+* **Modo Simulação**: Os tiros são disparados de forma automática e inteligente (evitando atirar no mesmo lugar duas vezes).
+* **Visualização em Tempo Real**: O console exibe o placar e o mapa de ambos os jogadores a cada rodada com uma pausa de 1 segundo para melhor acompanhamento.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+---
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 🗺️ Legenda do Tabuleiro
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Durante a execução, o tabuleiro utiliza os seguintes caracteres:
 
-## Dependency Management
+| Ícone | Descrição |
+| :---: | --- |
+| `~` | Água (Posição ainda não atingida) |
+| `X` | Navio (Escondido ou posicionado) |
+| `*` | Fogo (Navio atingido com sucesso) |
+| `-` | Água atingida (Tiro na água/Erro) |
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+---
+
+## 📦 Estrutura do Projeto
+
+O código está organizado em pacotes para separar as responsabilidades de cada classe:
+
+```text
+├── BatalhaNavalSimulacao.java   # Classe principal (contém o loop do jogo)
+└── pacote/
+    ├── CriarTabuleiro.java      # Inicializa a matriz do tabuleiro
+    ├── Posicionar.java          # Distribui os navios aleatoriamente
+    ├── Atirar.java              # Lógica de disparos aleatórios e validações
+    └── ExibirJogo.java          # Formatação e exibição gráfica no console
